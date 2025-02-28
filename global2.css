@@ -84,6 +84,7 @@ footer {
     border: none;
     cursor: pointer;
     transition : background-color 0.2s;
+    border-radius: 3px;
 }
 .subscribe-btn:hover{
     background-color:#007bff58 ;
