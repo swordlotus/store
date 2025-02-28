@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #111;
+}
+.logo-btn{
+    cursor: pointer;
+}
+.ta3dilat{
+    text-align: center;
+}
+#ta3dilat0{
+    font-size: 3em;
+}
+
+.logo img {
+    height: 50px;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.category-select {
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 300px;
+    border:none;
+    border-radius: 5px;
+}
+
+.search-btn {
+    background: #007BFF;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    transition : background-color 0.2s ; 
+    border-radius: 5px;
+}
+.search-btn:hover{
+    background-color:#007bff58 ;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+
+footer {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    background-attachment: fixed;
+}
+.newsletter {
+    background-attachment: fixed;
+}
+
+.subscribe-btn {
+    background: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition : background-color 0.2s;
+}
+.subscribe-btn:hover{
+    background-color:#007bff58 ;
+}
+/* items*/
+.global {
+    text-align:center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.line1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.product{
+    display: flex;
+    flex-direction:column;
+    height: 500px;
+    width: 300px;
+    justify-content: space-between;
+    background-color: #111;
+    transition: transform 2s,ease-in,boxshadow 2s,ease-in;
+    border-radius: 10px;
+}
+.product:hover{
+    box-shadow:0 0 15px #ff0000;
+    transform: scale(1.05);
+
+}
+.img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+     
+
+}
+.contact-btn{
+    background: #007BFF;
+    height: 30px;
+    width: 90px;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    align-self: end;
+    border: none;
+}
+.contact-btn:hover{
+    background-color: #007bff58;
+}
