@@ -80,11 +80,13 @@ footer {
 .subscribe-btn {
     background: #007BFF;
     color: white;
-    padding: 10px 15px;
+    padding: 3px 5px;
     border: none;
     cursor: pointer;
     transition : background-color 0.2s;
     border-radius: 3px;
+    width: fit-content;
+    height: fit-content;
 }
 .subscribe-btn:hover{
     background-color:#007bff58 ;
